@@ -61,7 +61,12 @@ body {
 
 .col-6 {
   width: 380px;
-  background: linear-gradient(90deg, #4bd4ff 24.19%, #ff43f7 96.75%);
+  background: linear-gradient(
+    127.28deg,
+    rgba(255, 255, 255, 0.4) 17.53%,
+    rgba(255, 255, 255, 0.1) 81.3%
+  );
+  backdrop-filter: blur(40px);
   box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.38);
   border-radius: 8px;
   padding: 10px;
@@ -205,7 +210,12 @@ section {
 
   .col-6 {
     width: 400px;
-    background: linear-gradient(90deg, #4bd4ff 24.19%, #ff43f7 96.75%);
+    background: linear-gradient(
+      127.28deg,
+      rgba(255, 255, 255, 0.4) 17.53%,
+      rgba(255, 255, 255, 0.1) 81.3%
+    );
+    backdrop-filter: blur(40px);
     box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.38);
     border-radius: 8px;
     padding: 10px;
@@ -294,7 +304,6 @@ section {
 
   .ekskul {
     width: 110%;
-    margin-left: 100px;
     margin-bottom: 20px;
     transition: 1s;
   }
@@ -303,9 +312,19 @@ section {
     transform: translateY(30px);
   }
 
+  .donat {
+    width: 70%;
+    margin-left: 80px;
+    transition: 1s;
+  }
+
+  .donat:hover {
+    transform: translateY(30px);
+  }
+
   .skadron {
     width: 77%;
-    margin-left: 200px;
+    margin-left: 40px;
     transition: 1s;
   }
 
