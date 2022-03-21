@@ -144,9 +144,14 @@ section {
   width: 110%;
 }
 
+.donat {
+  width: 70%;
+  margin-left: 50px;
+}
+
 .skadron {
   width: 77%;
-  margin-left: px;
+  margin-left: 30px;
 }
 
 /* Dekstop Version */
